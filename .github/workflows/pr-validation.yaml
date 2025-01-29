@@ -31,4 +31,4 @@ jobs:
         run: npm install parcel-bundler --save-dev
 
       - name: Build Project
-        run: npx parcel build src/Home.html src/Blog.html src/ContactUs.html
+        run: npx parcel build src/home.html src/blog.html src/contact.html
